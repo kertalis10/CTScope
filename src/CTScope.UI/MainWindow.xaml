@@ -3,12 +3,36 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:CTScope.Dicom.Models;assembly=CTScope.Dicom"
         mc:Ignorable="d"
         Title="CTScope"
         Height="900"
         Width="1400"
         WindowState="Maximized"
         Background="#1A1A1A">
+
+    <Window.Resources>
+        <HierarchicalDataTemplate DataType="{x:Type models:DicomStudyInfo}" ItemsSource="{Binding Series}">
+            <StackPanel Margin="0,2">
+                <TextBlock Foreground="#F0F0F0"
+                           FontWeight="SemiBold"
+                           Text="{Binding DisplayName}" />
+                <TextBlock Foreground="#AFAFAF"
+                           FontSize="11"
+                           Text="{Binding StudyDate}" />
+            </StackPanel>
+        </HierarchicalDataTemplate>
+
+        <DataTemplate DataType="{x:Type models:DicomSeriesInfo}">
+            <StackPanel Margin="10,2,0,5">
+                <TextBlock Foreground="#E0E0E0"
+                           Text="{Binding DisplayName}" />
+                <TextBlock Foreground="#999999"
+                           FontSize="11"
+                           Text="{Binding SeriesInstanceUid}" />
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -38,12 +62,53 @@
 
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="340" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
             <Border Grid.Column="0"
                     Margin="12"
+                    Padding="10"
+                    Background="#161616"
+                    BorderBrush="#404040"
+                    BorderThickness="1"
+                    CornerRadius="2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="140" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"
+                               Margin="0,0,0,8"
+                               Foreground="#EAEAEA"
+                               FontWeight="SemiBold"
+                               Text="Discovered Studies" />
+
+                    <TreeView Grid.Row="1"
+                              ItemsSource="{Binding Studies}"
+                              Background="#101010"
+                              BorderBrush="#353535"
+                              BorderThickness="1"
+                              SelectedItemChanged="StudyTree_OnSelectedItemChanged" />
+
+                    <TextBox Grid.Row="2"
+                             Margin="0,10,0,0"
+                             IsReadOnly="True"
+                             TextWrapping="Wrap"
+                             VerticalScrollBarVisibility="Auto"
+                             Background="#101010"
+                             Foreground="#D5D5D5"
+                             BorderBrush="#353535"
+                             BorderThickness="1"
+                             Text="{Binding OutputText}" />
+                </Grid>
+            </Border>
+
+            <Border Grid.Column="1"
+                    Margin="0,12,0,12"
                     Background="#111111"
                     BorderBrush="#404040"
                     BorderThickness="1"
@@ -85,8 +150,8 @@
                 </Grid>
             </Border>
 
-            <Border Grid.Column="1"
-                    Margin="0,12,12,12"
+            <Border Grid.Column="2"
+                    Margin="12,12,12,12"
                     Padding="12,18"
                     Width="90"
                     Background="#232323"

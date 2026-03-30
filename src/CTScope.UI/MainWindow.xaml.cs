@@ -1,7 +1,8 @@
 using System.Windows;
 using System.Windows.Controls;
-using Forms = System.Windows.Forms;
+using CTScope.Dicom.Models;
 using CTScope.UI.ViewModels;
+using Forms = System.Windows.Forms;
 
 namespace CTScope.UI;
 
@@ -28,8 +29,7 @@ public partial class MainWindow : Window
         var dialogResult = folderDialog.ShowDialog();
         if (dialogResult == Forms.DialogResult.OK)
         {
-            const int mockSliceCount = 120;
-            _viewModel.LoadMockStudy(folderDialog.SelectedPath, mockSliceCount);
+            _viewModel.ScanFolder(folderDialog.SelectedPath);
         }
         else
         {
@@ -46,5 +46,13 @@ public partial class MainWindow : Window
 
         var selectedSlice = (int)e.NewValue;
         _viewModel.SetSlice(selectedSlice);
+    }
+
+    private void StudyTree_OnSelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+    {
+        if (e.NewValue is DicomSeriesInfo series)
+        {
+            _viewModel.SelectedSeries = series;
+        }
     }
 }
