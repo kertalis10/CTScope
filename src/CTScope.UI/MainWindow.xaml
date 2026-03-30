@@ -9,6 +9,8 @@
         Width="1400"
         WindowState="Maximized"
         Background="#1A1A1A">
+
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />

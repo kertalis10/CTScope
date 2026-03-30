@@ -1,6 +1,6 @@
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Forms;
+using Forms = System.Windows.Forms;
 using CTScope.UI.ViewModels;
 
 namespace CTScope.UI;
@@ -18,7 +18,7 @@ public partial class MainWindow : Window
 
     private void OpenCtStudyFolder_Click(object sender, RoutedEventArgs e)
     {
-        using var folderDialog = new FolderBrowserDialog
+        using var folderDialog = new Forms.FolderBrowserDialog
         {
             Description = "Select CT study folder",
             UseDescriptionForTitle = true,
@@ -26,7 +26,7 @@ public partial class MainWindow : Window
         };
 
         var dialogResult = folderDialog.ShowDialog();
-        if (dialogResult == System.Windows.Forms.DialogResult.OK)
+        if (dialogResult == Forms.DialogResult.OK)
         {
             const int mockSliceCount = 120;
             _viewModel.LoadMockStudy(folderDialog.SelectedPath, mockSliceCount);

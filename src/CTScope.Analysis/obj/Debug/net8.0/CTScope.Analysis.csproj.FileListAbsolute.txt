@@ -1,0 +1,12 @@
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\bin\Debug\net8.0\CTScope.Analysis.deps.json
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\bin\Debug\net8.0\CTScope.Analysis.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\bin\Debug\net8.0\CTScope.Analysis.pdb
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.AssemblyInfoInputs.cache
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.AssemblyInfo.cs
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.csproj.CoreCompileInputs.cache
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.sourcelink.json
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\refint\CTScope.Analysis.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\CTScope.Analysis.pdb
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Analysis\obj\Debug\net8.0\ref\CTScope.Analysis.dll

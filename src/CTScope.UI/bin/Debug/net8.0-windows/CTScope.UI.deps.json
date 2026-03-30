@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CTScope.UI/1.0.0": {
+        "dependencies": {
+          "CTScope.Analysis": "1.0.0",
+          "CTScope.Dicom": "1.0.0"
+        },
+        "runtime": {
+          "CTScope.UI.dll": {}
+        }
+      },
+      "CTScope.Analysis/1.0.0": {
+        "runtime": {
+          "CTScope.Analysis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CTScope.Dicom/1.0.0": {
+        "runtime": {
+          "CTScope.Dicom.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CTScope.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CTScope.Analysis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CTScope.Dicom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

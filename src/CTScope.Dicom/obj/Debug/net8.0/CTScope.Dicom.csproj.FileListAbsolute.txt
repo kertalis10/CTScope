@@ -1,0 +1,12 @@
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\bin\Debug\net8.0\CTScope.Dicom.deps.json
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\bin\Debug\net8.0\CTScope.Dicom.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\bin\Debug\net8.0\CTScope.Dicom.pdb
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.AssemblyInfoInputs.cache
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.AssemblyInfo.cs
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.csproj.CoreCompileInputs.cache
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.sourcelink.json
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\refint\CTScope.Dicom.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\CTScope.Dicom.pdb
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.Dicom\obj\Debug\net8.0\ref\CTScope.Dicom.dll
