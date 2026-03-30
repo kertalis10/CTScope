@@ -1,0 +1,101 @@
+<Window x:Class="CTScope.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CTScope Viewer"
+        MinHeight="700"
+        MinWidth="1100"
+        WindowState="Maximized"
+        Background="#1B1E22">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#2A2E33" Padding="12">
+            <DockPanel LastChildFill="True">
+                <Button x:Name="OpenFolderButton"
+                        DockPanel.Dock="Left"
+                        Padding="14,7"
+                        Margin="0,0,12,0"
+                        Click="OpenCtStudyFolder_Click"
+                        Content="Open CT Study Folder" />
+
+                <TextBlock VerticalAlignment="Center"
+                           Foreground="#C7CED6"
+                           FontSize="12"
+                           TextTrimming="CharacterEllipsis"
+                           Text="{Binding SelectedFolderPath}" />
+            </DockPanel>
+        </Border>
+
+        <Grid Grid.Row="1" Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="90" />
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0"
+                    Background="#090A0B"
+                    BorderBrush="#3A3F46"
+                    BorderThickness="1"
+                    CornerRadius="3">
+                <Grid>
+                    <Rectangle Margin="35">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#202020" Offset="0.0" />
+                                <GradientStop Color="#5B5B5B" Offset="0.5" />
+                                <GradientStop Color="#2B2B2B" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+                    <Border HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="#8C000000"
+                            Padding="18,10"
+                            CornerRadius="4">
+                        <TextBlock Text="{Binding ViewerOverlayText}"
+                                   Foreground="White"
+                                   FontSize="18"
+                                   TextAlignment="Center" />
+                    </Border>
+                </Grid>
+            </Border>
+
+            <StackPanel Grid.Column="1"
+                        Margin="14,0,0,0"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="{Binding CurrentSliceDisplay}"
+                           Foreground="#DDE3EA"
+                           FontSize="13"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,12" />
+
+                <Slider x:Name="SliceSlider"
+                        Orientation="Vertical"
+                        Minimum="1"
+                        Maximum="120"
+                        Value="1"
+                        Height="420"
+                        Width="26"
+                        TickFrequency="1"
+                        IsSnapToTickEnabled="True"
+                        ValueChanged="SliceSlider_OnValueChanged"
+                        IsEnabled="{Binding IsStudyLoaded}" />
+            </StackPanel>
+        </Grid>
+
+        <StatusBar Grid.Row="2" Background="#2A2E33" Foreground="#DDE3EA">
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusText}" />
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
