@@ -3,6 +3,16 @@ C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTSc
 C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTScope.UI.runtimeconfig.json
 C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTScope.UI.dll
 C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTScope.UI.pdb
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CommunityToolkit.HighPerformance.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\fo-dicom.core.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Bcl.HashCode.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTScope.Analysis.dll
 C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTScope.Dicom.dll
 C:\Users\Eugen\Source\Repos\CTScope\src\CTScope.UI\bin\Debug\net8.0-windows\CTScope.Dicom.pdb

@@ -47,7 +47,7 @@ public class DicomStudyReader
 
             try
             {
-                var dicomFile = DicomFile.Open(filePath, FileReadOption.ReadSmallest);
+                var dicomFile = DicomFile.Open(filePath);
                 var dataset = dicomFile.Dataset;
 
                 var studyUid = GetOrFallback(dataset, DicomTag.StudyInstanceUID, "UNKNOWN-STUDY");

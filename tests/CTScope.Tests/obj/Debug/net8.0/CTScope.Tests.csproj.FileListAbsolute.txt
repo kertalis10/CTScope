@@ -9,7 +9,17 @@ C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\CTScope
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\CTScope.Tests.runtimeconfig.json
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\CTScope.Tests.dll
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\CTScope.Tests.pdb
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\CommunityToolkit.HighPerformance.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\fo-dicom.core.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Bcl.HashCode.dll
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\Eugen\Source\Repos\CTScope\tests\CTScope.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll

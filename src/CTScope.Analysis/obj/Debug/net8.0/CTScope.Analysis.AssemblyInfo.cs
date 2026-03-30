@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CTScope.Analysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d59373cf7fc33b0e556063cdd4108ae40bd1dc47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+851b8599987715216246509d92250ff58a33e3c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CTScope.Analysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CTScope.Analysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
